@@ -31,5 +31,60 @@
             text-decoration: none;
         }
         nav a:hover {
-            
+            background-color: #ddd;
+            color: black;
+            height: 50px;
+            padding: 14px 16px;
         }
+        main {
+            flex: 1;/*ดังให้ footer ลงไปล่าง*/
+            display: flex;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        section {
+            flex: 2;
+        }
+        article {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        aside {
+            background-color: #f4f4f4;
+            padding: 15px;
+            float: right;
+            width: 30%;
+            margin-left: 20px;
+            box-sizing: border-box;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>เว็บไซต์ของฉัน</h1>
+        <p>ยินดีต้อนรับสู่เว็บไซต์ตัวอย่าง HTML5</p>
+    </header>
+
+    <nav>
+        <a href="#">หน้าหลัก</a>
+        <a href="#">เกี่ยวกับ</a>
+        <a href="#">ติดต่อ</a>
+    </nav>
+    <main>
+        <section>
+            <h2>เนื้อหาหลักของเว็บเพจ</h2>
+            <article>
+                <h3>บทความที่ 1:HTML5</h3>
+            </article>
+        </section>
+    </main>
+</body>
