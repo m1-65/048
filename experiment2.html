@@ -5,17 +5,27 @@
     <meta charset="UTF-8">
     <style>
         .editable-box {
-            border: 2px dashed #00ff0d;
+            border: 2px dotted #00ff0d;
             padding: 10px;
             margin-top: 20px;
-            background-color: #f0f8ff;
+            background-color: #f05a50;
+            min-height: 50px;
+        }
+        .edit-box {
+            border: 2px dotted #00ff0d;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #f05a50;
             min-height: 50px;
         }
     </style>
 </head>
 <body>
     <h1>การแก้ไขเนื้อหา</h1>
-    <p id="editP" class="dotted" contenteditable="true">
+    <p id="editableParagraph" class="edit-box" contenteditable="true">
+        แก้ไขเนื้อหาในพื้นที่นี้ได้หรือไม่
+    </p>
+    <p id="editP" class="edit-box" contenteditable="true">
         แก้ไขเนื้อหาในพื้นที่นี้ได้หรือไม่
     </p>
     <p>แก้ไขเนื่อหาในส่วนนี้ได้หรือไม่</p>
