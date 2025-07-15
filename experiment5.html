@@ -28,6 +28,11 @@
     <canvas id="myCanvas" width="400" height="200"></canvas>
     <p>นี้คือพื้นที่ Canvas</p>
 
-    <script></script>
+    <script>
+        const canvas = document.gerElementById('myCanvas');
+        const ctx = canvas.getContext('2d');
+        ctx.fillStyle = '#ff6347';
+        ctx.fillRect(50,50,100,75);
+    </script>
 </body>
 </html>
